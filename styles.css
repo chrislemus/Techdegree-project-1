@@ -44,7 +44,7 @@ a:hover {
 .nav .name {
     display: block;
     margin-right: auto;
-    color: rgb(23, 143, 252);
+    color: rgb(170, 22, 255);
 }
 .nav li {
   padding: 5px 10px 10px 10px;
@@ -56,16 +56,24 @@ a:hover {
   color: rgb(159, 159, 159);
 }
 
-header {
+.homepage-header {
   text-align: center;
   background: url('images/honduras.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
 }
-header {
+
+/* default header styles for other pages */
+.pages-header {
   line-height: 1.5;
+  padding-top: 60px;
+  background-color: #0399ff;
+  overflow: hidden;
+  text-align: center;
+  color: #efefef;
 }
+
 header .profile-image {
   margin-top: 50px;
   width: 150px;
